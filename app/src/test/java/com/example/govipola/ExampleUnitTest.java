@@ -1,4 +1,4 @@
-package gp.govipola;
+package com.example.govipola;
 
 import org.junit.Test;
 
