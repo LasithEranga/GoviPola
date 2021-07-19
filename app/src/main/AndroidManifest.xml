@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <activity android:name=".settingsInside"></activity>
         <activity
             android:name=".ProductView"
             android:label="@string/title_activity_product_view"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
         <activity android:name=".Register" />
         <activity android:name=".Settings" />
         <activity
