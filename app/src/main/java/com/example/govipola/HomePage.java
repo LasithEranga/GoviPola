@@ -14,6 +14,8 @@ import com.example.govipola.adapters.HomeAdapter;
 import com.example.govipola.adapters.RequestListAdapter;
 import com.example.govipola.modal.HomeModel;
 import com.example.govipola.modal.RequestList;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +32,15 @@ public class HomePage extends AppCompatActivity {
         ImageView menu = (ImageView) findViewById(R.id.menu);
         menu.setOnClickListener(v -> openSettings());
 
+        FloatingActionButton fab = findViewById(R.id.add);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+
         discountRecyclerView = findViewById(R.id.main_page);
 
         //Adding data to model
@@ -37,6 +48,10 @@ public class HomePage extends AppCompatActivity {
         discountedProductsList.add(new HomeModel(1, R.drawable.carrot));
         discountedProductsList.add(new HomeModel(2, R.drawable.carrot));
         discountedProductsList.add(new HomeModel(3, R.drawable.carrot));
+        discountedProductsList.add(new HomeModel(4, R.drawable.carrot));
+        discountedProductsList.add(new HomeModel(5, R.drawable.carrot));
+        discountedProductsList.add(new HomeModel(6, R.drawable.carrot));
+        discountedProductsList.add(new HomeModel(3, R.drawable.pumpkin));
         discountedProductsList.add(new HomeModel(4, R.drawable.carrot));
         discountedProductsList.add(new HomeModel(5, R.drawable.carrot));
         discountedProductsList.add(new HomeModel(6, R.drawable.carrot));

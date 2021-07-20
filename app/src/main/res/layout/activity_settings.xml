@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/user_2_32" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/language"
         android:layout_width="258dp"
         android:layout_height="32dp"
         android:layout_marginStart="40dp"
@@ -28,7 +28,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.625"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/menuLanguage"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        app:layout_constraintTop_toBottomOf="@+id/language" />
 
     <TextView
         android:id="@+id/textView13"
@@ -129,13 +129,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/menuLanguage"
         android:layout_width="34dp"
         android:layout_height="26dp"
         android:layout_marginStart="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintBottom_toBottomOf="@+id/language"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/language"
         app:srcCompat="@drawable/letter_a_48" />
 
     <ImageView

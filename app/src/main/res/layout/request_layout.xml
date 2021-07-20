@@ -9,14 +9,13 @@
 
     <ImageView
         android:id="@+id/catgoryImageView"
-        android:layout_width="214dp"
-        android:layout_height="121dp"
-        android:background="@drawable/reqlist_back"
+        android:layout_width="372dp"
+        android:layout_height="163dp"
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="10dp"
         android:topRightRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/image_6" />
+        app:srcCompat="@drawable/carrotreq" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
