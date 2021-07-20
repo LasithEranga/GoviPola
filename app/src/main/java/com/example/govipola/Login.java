@@ -13,7 +13,6 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        TextView text = (TextView) findViewById(R.id.textView);
         ImageView img = (ImageView) findViewById(R.id.imageView5);
         img.setOnClickListener(v -> openActivity());
 

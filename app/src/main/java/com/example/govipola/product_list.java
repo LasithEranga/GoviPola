@@ -30,12 +30,12 @@ public class product_list extends AppCompatActivity {
 
         //Adding data to model
         discountedProductsList = new ArrayList<>();
-        discountedProductsList.add(new RequestList(1, R.drawable.image_6));
-        discountedProductsList.add(new RequestList(2, R.drawable.image_6));
-        discountedProductsList.add(new RequestList(3, R.drawable.image_6));
-        discountedProductsList.add(new RequestList(4, R.drawable.image_6));
-        discountedProductsList.add(new RequestList(5, R.drawable.image_6));
-        discountedProductsList.add(new RequestList(6, R.drawable.image_6));
+        discountedProductsList.add(new RequestList(1, R.drawable.carrotreq));
+        discountedProductsList.add(new RequestList(2, R.drawable.carrotreq));
+        discountedProductsList.add(new RequestList(3, R.drawable.carrotreq));
+        discountedProductsList.add(new RequestList(4, R.drawable.carrotreq));
+        discountedProductsList.add(new RequestList(5, R.drawable.carrotreq));
+        discountedProductsList.add(new RequestList(6, R.drawable.carrotreq));
         setRequestList(discountedProductsList);
 
 
