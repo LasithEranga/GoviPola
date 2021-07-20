@@ -1,24 +1,25 @@
 package com.example.govipola;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.util.Log;
 import android.widget.ImageView;
-import android.widget.TextView;
 
+public class onboard extends AppCompatActivity {
 
-public class Login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        ImageView img = (ImageView) findViewById(R.id.imageView5);
+        setContentView(R.layout.activity_onboard);
+        ImageView img = (ImageView) findViewById(R.id.startBtn);
         img.setOnClickListener(v -> openActivity());
 
     }
+
     public void openActivity(){
-        Intent intent = new Intent (this, HomePage.class);
+        Intent intent = new Intent (this, Login.class);
         startActivity(intent);
     }
 }
