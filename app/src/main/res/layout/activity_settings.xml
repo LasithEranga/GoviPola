@@ -94,11 +94,11 @@
         android:background="#30BA35"
         android:paddingTop="10sp"
         android:text="PALADAWA"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="normal"
-        android:textAlignment="center"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
